@@ -1,2 +1,2 @@
 # my-linktree
-"Linktree" personalizado para Instagram
+"Linktree" personalizado para Instagram. 
