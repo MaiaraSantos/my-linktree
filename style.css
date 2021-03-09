@@ -33,6 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 10px;
 }
 
 .container .profile {
@@ -57,17 +58,21 @@ body {
     margin-bottom: 40px;
   }
 
-.container .info-container h3 {
-    font-size: 16px;
-    color: #8b8a8a;
-    text-align: center;
-    margin-top: 50px;
-  }
-
-.info-container p {
+  .info-container {
     font-size: 14px;
     color: #8b8a8a;
     text-align: center;
+  }
+
+  .info-container p svg {
+    stroke-width: 1.5px;
+  }
+
+  .info-container h3 {
+    font-size: 16px;
+    color: #8b8a8a;
+    text-align: center;
+
   }
 
 .social-media-container {
@@ -103,9 +108,9 @@ body {
 .info-container {
   background: #fff;
   width: 100%;
-  height: 130px;
+  height: 160px;
   border-radius: 50px 0 50px 0;
   position: relative;
   margin-top: 20px;
-  padding: 0 20px;
+  padding: 40px 20px;
 }
