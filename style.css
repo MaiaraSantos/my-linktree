@@ -62,14 +62,17 @@ body {
     font-size: 14px;
     color: #8b8a8a;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .info-container h3 {
-    font-size: 16px;
-    color: #8b8a8a;
-    text-align: center;
-    margin-top: 2%;
-  }
+ .info-container h3 {
+   font-size: 16px;
+   color: #8b8a8a;
+   text-align: center;
+   margin-top: 2%;
+ }
 
 .social-media-container {
   display: flex;
@@ -84,7 +87,6 @@ body {
 
   position: absolute;
   top: -32px;
-  left: calc(46% - 111px);
 }
 
 .social-media-container a {
